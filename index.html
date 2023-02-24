@@ -1,19 +1,67 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <script type="module" src='index.mjs'></script>
+    <!-- <script type="module" src='index.mjs'></script> -->
+    <script type="module" src='option3.mjs'></script>
 </head>
+
 <body>
-    <Vidro src="http://localhost:8822/get/stream/1/index.m3u8" fps=1 width="500"></Vidro>
-    <Vidro src="http://localhost:8822/get/stream/7/index.m3u8" fps=1 width="500"></Vidro>
-    <Vidro src="http://localhost:8822/get/stream/2/index.m3u8" fps=1 width="500"></Vidro>
-    <video src=""></video>
+    <style>
+        Vidro {
+            width: 100%;
+        }
+    </style>
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
+
+        <Vidro width="160" height="90" src="http://192.168.20.198:8822/get/stream/9/index.m3u8"></Vidro>
+        <Vidro width="160" height="90" src="http://192.168.20.198:8822/get/stream/1/index.m3u8"></Vidro>
+        <Vidro width="160" height="90" src="http://192.168.20.198:8822/get/stream/9/index.m3u8"></Vidro>
+        <Vidro width="160" height="90" src="http://192.168.20.198:8822/get/stream/1/index.m3u8"></Vidro>
+        <Vidro width="160" height="90" src="http://192.168.20.198:8822/get/stream/9/index.m3u8"></Vidro>
+        <Vidro width="160" height="90" src="http://192.168.20.198:8822/get/stream/1/index.m3u8"></Vidro>
+
+        <!-- <Vidro width="420" height="240" src="http://192.168.20.198:8822/get/stream/9/index.m3u8" fps=30 quality="1"></Vidro> -->
+        <!-- <Vidro width="420" height="240" src="http://192.168.20.198:8822/get/stream/7/index.m3u8" fps=30 quality="1"></Vidro> -->
+        <!-- <Vidro width="420" height="240" src="http://192.168.20.198:8822/get/stream/2/index.m3u8" fps=30 quality="1"></Vidro> -->
+        <!-- <Vidro width="420" height="240" src="http://192.168.20.198:8822/get/stream/9/index.m3u8" fps=30 quality="1"></Vidro> -->
+        <!-- <Vidro width="420" height="240" src="http://192.168.20.198:8822/get/stream/7/index.m3u8" fps=30 quality="1"></Vidro> -->
+        <!-- <Vidro width="420" height="240" src="http://192.168.20.198:8822/get/stream/2/index.m3u8" fps=30 quality="1"></Vidro> -->
+        <!-- <Vidro width="420" height="240" src="http://192.168.20.198:8822/get/stream/9/index.m3u8" fps=30 quality="1"></Vidro> -->
+        <!-- <Vidro width="420" height="240" src="http://192.168.20.198:8822/get/stream/7/index.m3u8" fps=30 quality="1"></Vidro> -->
+
+        <!-- <Vidro width="280" src="http://192.168.20.198:8822/get/stream/1/index.m3u8" fps=30 quality="1"></Vidro> -->
+        <!-- <Vidro src="http://192.168.20.198:8822/get/stream/7/index.m3u8" fps=30 quality="1"></Vidro> -->
+        <!-- <Vidro src="http://192.168.20.198:8822/get/stream/9/index.m3u8" fps=30 quality="1"></Vidro> -->
+        <!-- <Vidro src="http://192.168.20.198:8822/get/stream/1/index.m3u8" fps=30 quality="1"></Vidro> -->
+        <!-- <Vidro src="http://192.168.20.198:8822/get/stream/7/index.m3u8" fps=30 quality="1"></Vidro> -->
+        <!-- <Vidro src="http://192.168.20.198:8822/get/stream/7/index.m3u8" fps=30 quality="1"></Vidro> -->
+        <!-- <Vidro src="http://192.168.20.198:8822/get/stream/9/index.m3u8" fps=30 quality="1"></Vidro> -->
+        <!-- <Vidro src="http://192.168.20.198:8822/get/stream/1/index.m3u8" fps=30 quality="1"></Vidro> -->
+        <!-- <Vidro src="http://192.168.20.198:8822/get/stream/7/index.m3u8" fps=30 quality="1"></Vidro> -->
+        <!-- <vidro autoplay muted loop src="http://192.168.20.198:8822/get/chunk/1/9.mp4"></video> -->
+        <!-- <vidro autoplay muted loop src="http://192.168.20.198:8822/get/chunk/1/9.mp4"></video> -->
+        <!-- <vidro autoplay muted loop src="http://192.168.20.198:8822/get/chunk/1/9.mp4"></video> -->
+        <!-- <vidro autoplay muted loop src="http://192.168.20.198:8822/get/chunk/1/9.mp4"></video> -->
+        <!-- <vidro autoplay muted loop src="http://192.168.20.198:8822/get/chunk/1/9.mp4"></video> -->
+        <!-- <vidro autoplay muted loop src="http://192.168.20.198:8822/get/chunk/1/9.mp4"></video> -->
+        <!-- <vidro autoplay muted loop src="http://192.168.20.198:8822/get/chunk/1/9.mp4"></video> -->
+        <!-- <vidro autoplay muted loop src="http://192.168.20.198:8822/get/chunk/1/9.mp4"></video> -->
+        <!-- <vidro autoplay muted loop src="http://192.168.20.198:8822/get/chunk/1/9.mp4"></video> -->
+        <!-- <vidro autoplay muted loop src="http://192.168.20.198:8822/get/chunk/1/9.mp4"></video> -->
+        <!-- <vidro autoplay muted loop src="http://192.168.20.198:8822/get/chunk/1/9.mp4"></video> -->
+        <!-- <vidro autoplay muted loop src="http://192.168.20.198:8822/get/chunk/1/9.mp4"></video> -->
+        <!-- <vidro autoplay muted loop src="http://192.168.20.198:8822/get/chunk/1/9.mp4"></video> -->
+        <!-- <vidro autoplay muted loop src="http://192.168.20.198:8822/get/chunk/1/9.mp4"></video> -->
+    </div>
+
     <script>
-        
+
     </script>
 </body>
+
 </html>
